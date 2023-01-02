@@ -1,0 +1,83 @@
+2023-01-02 08:48:11.688 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-01-02 08:48:11.790 +01:00 [DBG] Hosting starting
+2023-01-02 08:48:11.815 +01:00 [INF] User profile is available. Using 'C:\Users\rtoldi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-02 08:48:11.817 +01:00 [DBG] Reading data from file 'C:\Users\rtoldi\AppData\Local\ASP.NET\DataProtection-Keys\key-27159ef2-17f2-4c5f-9c9d-f3350ac98bb9.xml'.
+2023-01-02 08:48:11.820 +01:00 [DBG] Reading data from file 'C:\Users\rtoldi\AppData\Local\ASP.NET\DataProtection-Keys\key-33f6f038-2136-422e-b328-87ca68eb2e95.xml'.
+2023-01-02 08:48:11.821 +01:00 [DBG] Reading data from file 'C:\Users\rtoldi\AppData\Local\ASP.NET\DataProtection-Keys\key-95d9bb65-0f17-4b4a-91db-ad33ee17bdfd.xml'.
+2023-01-02 08:48:11.821 +01:00 [DBG] Reading data from file 'C:\Users\rtoldi\AppData\Local\ASP.NET\DataProtection-Keys\key-ca5418d9-ee4c-4ba0-8c55-fe7be64fcdab.xml'.
+2023-01-02 08:48:11.825 +01:00 [DBG] Found key {27159ef2-17f2-4c5f-9c9d-f3350ac98bb9}.
+2023-01-02 08:48:11.827 +01:00 [DBG] Found key {33f6f038-2136-422e-b328-87ca68eb2e95}.
+2023-01-02 08:48:11.827 +01:00 [DBG] Found key {95d9bb65-0f17-4b4a-91db-ad33ee17bdfd}.
+2023-01-02 08:48:11.827 +01:00 [DBG] Found key {ca5418d9-ee4c-4ba0-8c55-fe7be64fcdab}.
+2023-01-02 08:48:11.833 +01:00 [DBG] Considering key {ca5418d9-ee4c-4ba0-8c55-fe7be64fcdab} with expiration date 2023-01-22 16:19:06Z as default key.
+2023-01-02 08:48:11.834 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-02 08:48:11.836 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-01-02 08:48:11.837 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-02 08:48:11.840 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-01-02 08:48:11.841 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-01-02 08:48:11.843 +01:00 [DBG] Using key {ca5418d9-ee4c-4ba0-8c55-fe7be64fcdab} as the default key.
+2023-01-02 08:48:11.843 +01:00 [DBG] Key ring with default key {ca5418d9-ee4c-4ba0-8c55-fe7be64fcdab} was loaded during application startup.
+2023-01-02 08:48:11.970 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: F270D90B7FA1668EBDB3D13B83A358E961DF2897)
+2023-01-02 08:48:12.001 +01:00 [INF] Now listening on: https://localhost:7188
+2023-01-02 08:48:12.001 +01:00 [INF] Now listening on: http://localhost:5188
+2023-01-02 08:48:12.001 +01:00 [DBG] Loaded hosting startup assembly MagicVilla_API
+2023-01-02 08:48:12.001 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-01-02 08:48:12.001 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-01-02 08:48:12.001 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-02 08:48:12.001 +01:00 [INF] Hosting environment: Development
+2023-01-02 08:48:12.001 +01:00 [INF] Content root path: C:\Users\rtoldi\Desktop\WebAPI\MagicVilla_API\MagicVilla_API\
+2023-01-02 08:48:12.001 +01:00 [DBG] Hosting started
+2023-01-02 08:48:12.385 +01:00 [DBG] Connection id "0HMNCIMPG2H03" accepted.
+2023-01-02 08:48:12.386 +01:00 [DBG] Connection id "0HMNCIMPG2H03" started.
+2023-01-02 08:48:12.389 +01:00 [DBG] Connection id "0HMNCIMPG2H04" accepted.
+2023-01-02 08:48:12.389 +01:00 [DBG] Connection id "0HMNCIMPG2H04" started.
+2023-01-02 08:48:12.637 +01:00 [DBG] Connection id "0HMNCIMPG2H05" accepted.
+2023-01-02 08:48:12.637 +01:00 [DBG] Connection id "0HMNCIMPG2H05" started.
+2023-01-02 08:48:12.642 +01:00 [DBG] Connection id "0HMNCIMPG2H06" accepted.
+2023-01-02 08:48:12.642 +01:00 [DBG] Connection id "0HMNCIMPG2H06" started.
+2023-01-02 08:48:12.668 +01:00 [DBG] Connection id "0HMNCIMPG2H05" received FIN.
+2023-01-02 08:48:12.678 +01:00 [DBG] Connection 0HMNCIMPG2H05 established using the following protocol: "Tls13"
+2023-01-02 08:48:12.678 +01:00 [DBG] Connection 0HMNCIMPG2H06 established using the following protocol: "Tls13"
+2023-01-02 08:48:12.694 +01:00 [DBG] Connection id "0HMNCIMPG2H05" is closed. The last processed stream ID was 0.
+2023-01-02 08:48:12.695 +01:00 [DBG] Connection id "0HMNCIMPG2H05" sending FIN because: "The client closed the connection."
+2023-01-02 08:48:12.701 +01:00 [DBG] Connection id "0HMNCIMPG2H05" stopped.
+2023-01-02 08:48:12.736 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger - -
+2023-01-02 08:48:12.780 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-01-02 08:48:12.810 +01:00 [DBG] No candidates found for the request path '/swagger'
+2023-01-02 08:48:12.810 +01:00 [DBG] Request did not match any endpoints
+2023-01-02 08:48:12.910 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger - - - 301 0 - 179.0566ms
+2023-01-02 08:48:12.953 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/index.html - -
+2023-01-02 08:48:12.954 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-01-02 08:48:12.954 +01:00 [DBG] Request did not match any endpoints
+2023-01-02 08:48:13.151 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-01-02 08:48:13.158 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-01-02 08:48:13.159 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/index.html - - - 200 - text/html;charset=utf-8 205.8224ms
+2023-01-02 08:48:13.195 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/swagger-ui.css - -
+2023-01-02 08:48:13.195 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-01-02 08:48:13.195 +01:00 [DBG] Request did not match any endpoints
+2023-01-02 08:48:13.195 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/swagger-ui-bundle.js - -
+2023-01-02 08:48:13.195 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/swagger-ui-standalone-preset.js - -
+2023-01-02 08:48:13.195 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - -
+2023-01-02 08:48:13.195 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-01-02 08:48:13.195 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-01-02 08:48:13.195 +01:00 [DBG] Request did not match any endpoints
+2023-01-02 08:48:13.196 +01:00 [DBG] Request did not match any endpoints
+2023-01-02 08:48:13.199 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 3.8586ms
+2023-01-02 08:48:13.206 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-01-02 08:48:13.206 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/swagger-ui.css - - - 200 143632 text/css 11.2457ms
+2023-01-02 08:48:13.208 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-01-02 08:48:13.209 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 13.2796ms
+2023-01-02 08:48:13.230 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-01-02 08:48:13.230 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 34.5399ms
+2023-01-02 08:48:13.273 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_vs/browserLink - -
+2023-01-02 08:48:13.312 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.7883ms
+2023-01-02 08:48:13.447 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - -
+2023-01-02 08:48:13.447 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-01-02 08:48:13.447 +01:00 [DBG] Request did not match any endpoints
+2023-01-02 08:48:13.652 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 204.5905ms
+2023-01-02 08:48:22.391 +01:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-01-02 08:48:22.391 +01:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-01-02 08:48:22.391 +01:00 [DBG] Connection id "0HMNCIMPG2H03" stopped.
+2023-01-02 08:48:22.391 +01:00 [DBG] Connection id "0HMNCIMPG2H04" stopped.
+2023-01-02 08:48:22.391 +01:00 [DBG] Connection id "0HMNCIMPG2H03" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-01-02 08:48:22.391 +01:00 [DBG] Connection id "0HMNCIMPG2H04" sending FIN because: "The Socket transport's send loop completed gracefully."
